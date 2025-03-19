@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Thank You
-permalink: /thank-you/
 ---
 
 <div class="magazine-layout">

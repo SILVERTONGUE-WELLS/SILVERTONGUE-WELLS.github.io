@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Contact
-permalink: /contact/
 ---
 
 <div class="magazine-layout">
@@ -37,7 +36,7 @@ permalink: /contact/
         
         <input type="text" name="_gotcha" style="display:none">
         
-        <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}/thank-you/">
+        <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}/thank-you">
         
         <button type="submit" class="submit-btn">Send Message</button>
       </form>
@@ -52,7 +51,7 @@ permalink: /contact/
         <i class="fas fa-envelope" style="color: white;"></i>
         <div class="contact-detail">
           <h3>Email</h3>
-          <p><a href="mailto:12212108@mail.sustech.edu.cn">12212108@mail.sustech.edu.cn</a></p>
+          <p><a href="mailto:your.email@example.com">12212108@mail.sustech.edu.cn</a></p>
         </div>
       </div>
       
