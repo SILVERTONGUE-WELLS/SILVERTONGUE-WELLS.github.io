@@ -1,0 +1,105 @@
+<nav class="site-nav">
+  <div class="container">
+    <div class="nav-container">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+      
+      <ul class="nav-links">
+        <li><a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}" data-internal-link>Home</a></li>
+        <!-- <li><a href="{{ site.baseurl }}/about/" class="{% if page.url == '/about/' %}active{% endif %}" data-internal-link>About</a></li> -->
+        <li><a href="{{ site.baseurl }}/portfolio/" class="{% if page.url == '/portfolio/' %}active{% endif %}" data-internal-link>Portfolio</a></li>
+        <!-- <li><a href="{{ site.baseurl }}/blog/" class="{% if page.url == '/blog/' %}active{% endif %}" data-internal-link>Blog</a></li> -->
+        <li><a href="{{ site.baseurl }}/contact/" class="{% if page.url == '/contact/' %}active{% endif %}" data-internal-link>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+  /* Mobile navigation toggle */
+  .nav-toggle {
+    display: none;
+  }
+  
+  .nav-toggle-label {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-container {
+      position: relative;
+    }
+    
+    .nav-toggle-label {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+      display: block;
+      background: white;
+      height: 2px;
+      width: 26px;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+    
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+      content: '';
+      position: absolute;
+    }
+    
+    .nav-toggle-label span::before {
+      bottom: 8px;
+    }
+    
+    .nav-toggle-label span::after {
+      top: 8px;
+    }
+    
+    .nav-links {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--primary-color);
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      z-index: 1000;
+    }
+    
+    .nav-toggle:checked ~ .nav-links {
+      max-height: 500px;
+    }
+    
+    .nav-toggle:checked ~ .nav-toggle-label span {
+      background: transparent;
+    }
+    
+    .nav-toggle:checked ~ .nav-toggle-label span::before {
+      transform: rotate(45deg);
+      bottom: 0;
+    }
+    
+    .nav-toggle:checked ~ .nav-toggle-label span::after {
+      transform: rotate(-45deg);
+      top: 0;
+    }
+  }
+  
+  .nav-links a.active {
+    background-color: var(--secondary-color);
+  }
+</style> 

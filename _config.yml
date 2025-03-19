@@ -1,0 +1,15 @@
+title: Wells's Website
+description: A New York Times inspired personal website
+baseurl: ""
+url: ""
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md 
