@@ -1,6 +1,6 @@
 title: My Website
 description: A New York Times inspired personal website
-baseurl: ""
+baseurl: "/mywebsite"
 url: ""
 permalink: /:title/
 
