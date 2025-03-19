@@ -1,7 +1,8 @@
-title: Wells's Website
+title: My Website
 description: A New York Times inspired personal website
 baseurl: ""
 url: ""
+permalink: /:title/
 
 markdown: kramdown
 theme: minima
