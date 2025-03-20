@@ -6,25 +6,25 @@ title: About
 <div class="magazine-layout">
   <div class="full-width">
     <h1 class="article-heading fade-in">About Me</h1>
-    <div class="article-lead fade-in">A computer science student with a passion for editorial design and typography</div>
+    <div class="article-lead fade-in">Computer Science Student @ SUSTECH & USYD</div>
   </div>
 </div>
 
 <div class="magazine-layout">
   <div class="two-thirds fade-in-left">
     <div class="article-columns">
-      <p><span class="dropcap">I</span>'m a computer science student fascinated by the intersection of technology and design. My interest in computer science goes beyond just coding—I'm particularly drawn to how digital experiences can be crafted with the same attention to detail and artistic sensibility as print media.</p>
+      <p><span class="dropcap">I</span>'m a Computer Science student passionate about exploring the intersection of distributed systems, machine learning, and systems programming. Currently pursuing my Bachelor's degree at Southern University of Science and Technology (SUSTECH) with an exchange semester at The University of Sydney.</p>
       
-      <p>Growing up, I was always captivated by the layouts of newspapers and magazines. The way The New York Times arranged its headlines and stories, how Rolling Stone created visual impact, and the clean organization of The Guardian—all these influences have shaped my approach to digital design.</p>
+      <p>My research focuses on developing efficient algorithms and frameworks for complex computational problems. I'm particularly interested in federated learning and multimodal alignment in large models, and currently serve as a research assistant in two labs at SUSTECH.</p>
       
-      <p>In my work, I aim to bring together the precision and logic of computer science with the artistic expression and visual hierarchy of editorial design. I believe that good design is not just about aesthetics but about effectively communicating information and creating meaningful user experiences.</p>
+      <p>Beyond academics, I've taken on leadership roles, including serving as the head of Student Rights department at SUSTECH Student Union, where I implemented digital solutions to improve campus life. I'm dedicated to creating innovative systems that solve real-world problems.</p>
     </div>
   </div>
   
   <div class="one-third fade-in-right">
-    <img src="https://source.unsplash.com/random/600x800/?portrait" alt="Portrait" style="width: 100%; margin-bottom: 20px;">
+    <img src="{{ site.baseurl }}/assets/images/portfolio.png" alt="Wells Bai" style="width: 100%; margin-bottom: 20px;">
     <div class="pull-quote">
-      "The best design is invisible—it simplifies complexity and makes information accessible."
+      "I believe in building systems that combine theoretical elegance with practical utility."
     </div>
   </div>
 </div>
@@ -35,63 +35,63 @@ title: About
   </div>
   
   <div class="half fade-in-up">
-    <h3>Computer Science</h3>
-    <p><strong>University Name</strong>, Bachelor of Science<br>2020 - Present</p>
+    <h3>Southern University of Science and Technology (SUSTECH)</h3>
+    <p><strong>Bachelor of Engineering in Computer Science and Technology</strong><br>September 2021 - Present</p>
     <ul>
-      <li>Algorithms and Data Structures</li>
-      <li>Web Development</li>
-      <li>Human-Computer Interaction</li>
-      <li>Software Engineering</li>
+      <li>GPA: 3.90/4.00 (90.2/100)</li>
+      <li>Core courses: Operating Systems, Computer Networks, Distributed Systems</li>
+      <li>Honors Program student</li>
+      <li>Research focus on systems programming and machine learning</li>
     </ul>
   </div>
   
   <div class="half fade-in-up" style="animation-delay: 0.3s;">
-    <h3>Design Studies</h3>
-    <p><strong>Design Institute</strong>, Certificate<br>2021 - 2022</p>
+    <h3>The University of Sydney</h3>
+    <p><strong>Exchange Program in Computer Science</strong><br>February 2023 - July 2023</p>
     <ul>
-      <li>Typography Fundamentals</li>
-      <li>Editorial Design</li>
-      <li>Visual Communication</li>
-      <li>User Experience Design</li>
+      <li>Semester-long exchange program</li>
+      <li>Courses in advanced algorithms and machine learning</li>
+      <li>Research collaboration on federated learning systems</li>
+      <li>International academic experience</li>
     </ul>
   </div>
 </div>
 
 <div class="magazine-layout">
   <div class="full-width fade-in">
-    <h2>Skills</h2>
+    <h2>Technical Skills</h2>
   </div>
   
   <div class="one-third fade-in-up">
-    <h3>Programming</h3>
+    <h3>Programming Languages</h3>
     <ul>
-      <li>JavaScript / TypeScript</li>
+      <li>Rust</li>
       <li>Python</li>
+      <li>C/C++</li>
       <li>Java</li>
-      <li>HTML/CSS</li>
-      <li>SQL</li>
+      <li>Go</li>
     </ul>
   </div>
   
   <div class="one-third fade-in-up" style="animation-delay: 0.2s;">
-    <h3>Design</h3>
+    <h3>Frameworks & Tools</h3>
     <ul>
-      <li>Typography</li>
-      <li>Layout Design</li>
-      <li>Color Theory</li>
-      <li>UI/UX Design</li>
-      <li>Figma / Adobe XD</li>
+      <li>PyTorch / TensorFlow</li>
+      <li>CUDA Programming</li>
+      <li>Docker & Kubernetes</li>
+      <li>Git & CI/CD</li>
+      <li>Linux Systems</li>
     </ul>
   </div>
   
   <div class="one-third fade-in-up" style="animation-delay: 0.4s;">
-    <h3>Other</h3>
+    <h3>Research Areas</h3>
     <ul>
-      <li>Project Management</li>
-      <li>Git / Version Control</li>
-      <li>Responsive Design</li>
-      <li>Information Architecture</li>
-      <li>Content Strategy</li>
+      <li>Distributed Systems</li>
+      <li>Federated Learning</li>
+      <li>Systems for ML</li>
+      <li>Multimodal Alignment</li>
+      <li>Low-level Programming</li>
     </ul>
   </div>
 </div>
@@ -99,7 +99,7 @@ title: About
 <div class="magazine-layout">
   <div class="full-width fade-in">
     <div class="pull-quote" style="text-align: center; border-left: none; padding-left: 0;">
-      "I strive to create digital experiences that are as thoughtfully crafted as the pages of my favorite magazines."
+      "I strive to create systems and algorithms that are both theoretically elegant and practically impactful."
     </div>
   </div>
 </div> 

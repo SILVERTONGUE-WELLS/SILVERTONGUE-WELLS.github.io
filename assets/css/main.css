@@ -350,6 +350,55 @@ a:hover {
   display: inline-block;
 }
 
+/* Resume link special styling */
+.resume-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 25px;
+  background-color: var(--light-bg);
+  border: 1px solid var(--border-color);
+  border-left: 4px solid var(--secondary-color);
+  transition: all 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  margin: 20px 0 40px;
+}
+
+.resume-link:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-color: #2a2a2a;
+  color: var(--secondary-color);
+}
+
+.resume-link i {
+  transition: transform 0.3s ease;
+}
+
+.resume-link:hover i {
+  transform: translateY(-3px);
+}
+
+.resume-link span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.1);
+  }
+}
+
+.resume-container:hover .resume-link {
+  animation: pulse-glow 2s infinite;
+}
+
 .pdf-link {
   display: block;
   margin: 15px 0;

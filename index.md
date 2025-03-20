@@ -12,6 +12,16 @@ title: Home
   </div>
 </div> -->
 
+## Online Resume
+<p>Just in case you want to grasp the whole idea faster. Cheers!</p>
+
+<div class="resume-container fade-in">
+  <a href="{{ site.baseurl }}/assets/pdfs/Resume.pdf" class="pdf-link resume-link">
+    <i class="fas fa-file-pdf fa-3x" style="color: var(--secondary-color);"></i>
+    <span>Download Full Resume (PDF)</span>
+  </a>
+</div>
+
 ## Reference Letters
 
 <div class="reference-letters fade-in">
