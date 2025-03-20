@@ -40,7 +40,7 @@ title: Home
   </a>
 </div> 
 
-<div class="magazine-layout">
+<!-- <div class="magazine-layout">
   <div class="two-thirds fade-in-left">
     <h2>About Me</h2>
     <div class="article-columns">
@@ -72,4 +72,4 @@ title: Home
     <h2>Current Projects</h2>
     <p>Currently exploring the intersection of algorithmic thinking and editorial design principles. Creating digital experiences that feel as thoughtfully crafted as a well-designed magazine spread.</p>
   </div>
-</div>
+</div> -->

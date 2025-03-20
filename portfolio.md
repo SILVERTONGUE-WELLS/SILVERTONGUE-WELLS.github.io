@@ -14,7 +14,7 @@ title: Portfolio
   <div class="two-thirds fade-in-left">
     <div class="feature-article">
       <h2>rCore Operating System</h2>
-      <img src="{{ site.baseurl }}/assets/images/os.jpg" alt="Operating System Development" class="featured-image">
+      <!-- <img src="{{ site.baseurl }}/assets/images/os.jpg" alt="Operating System Development" class="featured-image"> -->
       <p class="caption">A microkernel operating system implemented in Rust</p>
       
       <div class="article-columns">
@@ -57,7 +57,7 @@ title: Portfolio
   <div class="half fade-in-up">
     <div class="feature-article">
       <h2>Federated Learning Framework</h2>
-      <img src="{{ site.baseurl }}/assets/images/ml.jpg" alt="Federated Learning System" class="featured-image">
+      <!-- <img src="{{ site.baseurl }}/assets/images/ml.jpg" alt="Federated Learning System" class="featured-image"> -->
       <p>A distributed machine learning system that enables collaborative model training while preserving data privacy. The framework implements secure aggregation protocols and differential privacy techniques to protect sensitive information during the training process.</p>
       
       <a href="#" class="btn">View Project</a>
@@ -67,7 +67,7 @@ title: Portfolio
   <div class="half fade-in-up" style="animation-delay: 0.3s;">
     <div class="feature-article">
       <h2>P2P Video Conferencing System</h2>
-      <img src="{{ site.baseurl }}/assets/images/video.jpg" alt="Video Conferencing System" class="featured-image">
+      <!-- <img src="{{ site.baseurl }}/assets/images/video.jpg" alt="Video Conferencing System" class="featured-image"> -->
       <p>A peer-to-peer video conferencing solution built from scratch with WebRTC. This project implements efficient video and audio transmission with dynamic quality adjustment, end-to-end encryption, and a distributed room management system without relying on centralized servers.</p>
       
       <a href="#" class="btn">View Project</a>

@@ -21,13 +21,13 @@ title: About
     </div>
   </div>
   
-  <div class="one-third fade-in-right">
+  <!-- <div class="one-third fade-in-right">
     <img src="{{ site.baseurl }}/assets/images/portfolio.png" alt="Wells Bai" style="width: 100%; margin-bottom: 20px;">
     <div class="pull-quote">
       "I believe in building systems that combine theoretical elegance with practical utility."
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="magazine-layout">
   <div class="full-width fade-in">
