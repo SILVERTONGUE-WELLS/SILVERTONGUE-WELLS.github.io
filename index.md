@@ -3,15 +3,6 @@ layout: default
 title: Home
 ---
 
-<!-- <div class="magazine-layout">
-  <div class="full-width feature-article fade-in">
-    <h1 class="article-heading">Welcome to my Personal Website</h1>
-    <p class="article-lead">It's never too late to do the right thing</p>
-    <img src="https://source.unsplash.com/random/1200x600/?typography" alt="Featured Image" class="featured-image">
-    <p class="caption">Typography and design elements that inspire my work</p>
-  </div>
-</div> -->
-
 ## Online Resume
 <p>Just in case you want to grasp the whole idea faster. Cheers!</p>
 

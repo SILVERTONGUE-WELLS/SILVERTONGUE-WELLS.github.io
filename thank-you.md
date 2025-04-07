@@ -10,8 +10,7 @@ title: Thank You
       <div class="thank-you-icon">
         <i class="fas fa-check-circle"></i>
       </div>
-      <p class="thank-you-message">Your message has been sent successfully!</p>
-      <p>Thank you for getting in touch. I'll respond to your message as soon as possible.</p>
+      <p class="thank-you-message">Cheers! Thanks for reaching out, I will reply you ASAP.</p>
       <a href="{{ site.baseurl }}/" class="back-home-btn">Return to Home Page</a>
     </div>
   </div>
