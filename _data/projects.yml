@@ -21,7 +21,7 @@
 - name: Audio Driver for Rust-based Operating System
   gh_user: loaringlyc
   repo: asterinas-driver
-  img: images/audio.png
+  img: images/Audio.png
   desc: |
     <span style="font-size: 0.8em">*Rust, Operating System, Audio Driver, Frame Kernel, Virtio-IO*</span>
 
