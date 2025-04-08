@@ -1,58 +1,103 @@
 # projects section data
-- name: A repo with workflow, that downloads the current Pay-As-You-Go prices from Azure once a month and saves them in ~40MB files
-  gh_user: tzuehlke
-  repo: AzurePAYGPrices
-  img: https://blog.zuehlke.cloud/wp-content/uploads/2024/04/AzureCostExportPAYG-Overview-945x293.png
+- name: Open Source Personalized Federated Learning Library
+  gh_user: TsingZ0
+  repo: PFLlib
+  img: images/structure.png
+  desc: |
+    <small>*Federated Learning, LLM, PyTorch, Distributed Systems, Deep Learning*</small>
 
-- name: A regular rebuild and hosting of the TOR snowflake project (to provide access to censored websites)
-  gh_user: tzuehlke
-  repo: snowflake
-  img: https://blog.zuehlke.cloud/wp-content/uploads/2023/05/snowflake-logs.png
+    **Designed and implemented** federated learning protocols for large language model (LLM) fine-tuning.
 
-- name: A Wordle Sover as Blazer WebAssembly
-  gh_user: tzuehlke
-  repo: wordle-solver
-  img: https://user-images.githubusercontent.com/32843441/150650516-1998923f-b836-4256-99b0-a5e3e86a3322.png
+    Key achievements:
+    * Designed LoRA-Enhanced PFL (Personalised Federated Learning) protocol for LLM fine-tuning, achieving:
+      - **53% reduction** in communication overhead through adaptive parameter masking
+      - Maintained **85% task accuracy** on GPT-2-XL and LLama models
+    * Built comprehensive open-source PFL ecosystem featuring:
+      - **37 algorithms** implementation (FedProx/APFL/etc.)
+      - Modular API design supporting **20+ datasets** across 3 domains
+      - Accumulated **1.5K+ GitHub stars**
+      - Adopted by **7 research teams**
 
-- name: Long running Azure Functions on Consumption Plan
-  gh_user: tzuehlke
-  repo: AzureFunction-TimeoutCheck
-  img: https://user-images.githubusercontent.com/32843441/147861707-a0c412ab-93d6-4fd2-86f4-2ef2b2722c47.png
+- name: Audio Driver for Rust-based Operating System
+  gh_user: loaringlyc
+  repo: asterinas-driver
+  img: images/audio.png
+  desc: |
+    <span style="font-size: 0.8em">*Rust, Operating System, Audio Driver, Frame Kernel, Virtio-IO*</span>
 
-- name: Keycloak Dockerfile with SSH
-  gh_user: tzuehlke
-  repo: keycloakssh
-  img: https://user-images.githubusercontent.com/32843441/147859397-a1dbc63b-c58f-4536-ae8a-d51e17aa08ce.png
+    **Asterinas** is the first OS on FRAME KERNEL structure, written in safe Rust, mainly for educational purposes for the moment.
 
-- name: Monopoly Money Manager
-  gh_user: tzuehlke
-  repo: MonopolyMoneyManager
-  img: https://user-images.githubusercontent.com/32843441/103153706-bad12c80-4792-11eb-880b-1bf966d6d2a1.png
+    Key achievements:
+    * Developed Virtio-IO audio driver
+    * Successfully merged into the main branch
+    * Project has gained **over 2k stars** on GitHub
 
-- name: Azure Gremlin API
-  gh_user: tzuehlke
-  repo: AzGremlinRestApi
-  img: https://user-images.githubusercontent.com/32843441/103159777-d86fb780-47cd-11eb-9952-ea0242e0ab9d.png
+- name: Video Conference Meeting Software Development
+  gh_user: V1Zhang
+  repo: CS305-Project
+  img: images/conference.png
+  desc: |
+    <span style="font-size: 0.8em">*C++, Python, Vue, FastAPI, WebRTC Protocol*</span>
 
-- name: Debug Container
-  gh_user: tzuehlke
-  repo: DebugContainer
-  img: https://user-images.githubusercontent.com/32843441/62822286-71724400-bb81-11e9-9c0b-59fe58dd39a8.png
+    **High-Performance Video Conference System** built with modern web technologies and optimized media processing.
 
-- name: Jekyll Theme
-  gh_user: tzuehlke
-  repo: jekyll-uno-timeline
-  img: https://raw.githubusercontent.com/tzuehlke/jekyll-uno-timeline/master/screenshot-overview.png
-  desc: This Jekyll Theme. Based on the Uno-Theme with a list of projects as timeline. Like a business card.
+    Key achievements:
+    * Developed WebRTC-based P2P communication core with C++ media processing, achieving **<200ms latency** via adaptive bitrate and FEC (Forward Error Correction)
+    * Implemented multi-room signaling server using FastAPI WebSocket, handling **100+ concurrent connections** per instance with async I/O architecture
+    * Created real-time video grid UI in Vue 3 with dynamic layout switching
+  
+- name: RISC-V CPU on FPGA board
+  gh_user: Wellshh
+  repo: RISC-V-CPU
+  img: images/CPU.png
+  desc: |
+    <span style="font-size: 0.8em">*RISC-V, Verilog, FPGA, CPU, Assembly Language*</span>
 
-- name: Azure Automation Scripts
-  gh_user: tzuehlke
-  repo: scripts
-  #img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
-  img: https://docs.microsoft.com/de-de/powershell/media/index/ps_black_128.svg
-  desc: Some scripts that I used with Azure Automation. For example a VM Start/Stop script or a script for resetting a VPN tunnel.
+    Key achievements:
+    * Designed 5-stage pipelined RISC-V core (RV32I) in Verilog, achieving **120MHz** on Xilinx Artix-7 FPGA with **1.65 CPI** via hazard detection unit
+    * Implemented forwarding unit and branch prediction (2-bit BHT), reducing pipeline stalls by **72%** in CoreMark benchmark
+    * Developed custom debug interface with UART-based register/memory inspection, supporting real-time PC tracing via Python CLI
+    * Optimized resource utilization to **<1800 LUTs** through dynamic pipeline balancing, achieving **35% reduction** vs baseline scalar design
+    * Verified compliance via RISCOF test framework, passing **300+ ISA tests** with **98.7% coverage** including ECALL/CSR corner cases
 
-- name: Face API
-  gh_user: ArvatoSystems
-  repo: FaceApiWPF
-  img: https://raw.githubusercontent.com/ArvatoSystems/FaceApiWPF/master/FaceApiWPFScreenshot.png
+- name: Optimization of Sparse Matrix Multiplication
+  gh_user: Wellshh
+  repo: Sparse-Matrix-Multiplication-Optimization
+  img: /images/Sparse.png
+  desc: |
+      <span style="font-size: 0.8em">*C++, x86, OpenBLAS, Sparse Matrix, Matrix Multiplication, Cuda*</span>
+
+      **Optimized Sparse Matrix Multiplication Library** with CPU and GPU acceleration, outperforming industry-standard solutions.
+
+      Key achievements:
+      * Implemented optimized sparse matrix multiplication algorithms in C++, achieving **3.2x speedup** over naive implementations through advanced matrix blocking techniques and cache-aware design
+      * Developed hand-tuned kernel code for small matrix blocks (4x4, 8x8), strategically reordering multiplication sequences that reduced cache misses by **67%**
+      * Outperformed the OpenBLAS library by **5%** on benchmark test suites with highly sparse matrices (**>95% sparsity**), demonstrating superior algorithm design for specific use cases
+
+- name: Mini Piano on FPGA Board
+  gh_user: Wellshh
+  repo: Mini_Piano-Project
+  img: /images/Piano.png
+  desc: |
+    <span style="font-size: 0.8em">*Verilog, FPGA, Piano, Sound Generation*</span>
+
+    A mini piano project on **FPGA** board, using Verilog to implement the piano sound generation and display.
+
+- name: Danmu Website Backend Development
+  gh_user: Wellshh
+  repo: Danmu-Website
+  img: /images/Danmu.png
+  desc: |
+    <span style="font-size: 0.8em">*Java, FastAPI, PostgreSQL*</span>
+
+    **Danmu Website Backend** built with FastAPI, PostgreSQL, and Java.
+
+    Key achievements:
+    * Developed a RESTful API for the website backend using FastAPI, handling **1000+ requests per second** with async I/O architecture
+    * Implemented user authentication and authorization with JWT tokens
+    * Created a PostgreSQL database for storing user data and content, utilizing 
+
+    
+
+
+

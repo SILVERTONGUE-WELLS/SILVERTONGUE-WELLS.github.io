@@ -1,22 +1,22 @@
 # Site settings
-title: Thomas Zühlke
-description: 'Business Card Page'
+title: JUNYAN BAI
+description: 'Project Portfolio for NOC Inbound'
 url: 'https://www.zuehlke.cloud'
 baseurl: ''
-profilepic: '/images/tzuehlke.jpg'
-bkimage: '/images/bk1.jpg'
+profilepic: '/images/portfolio.png'
+bkimage: '/images/bk2.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+font_awesome: 'a0ef200358.js'
 
 author:
-  name: 'Thomas Zühlke'
-  email: thomas@zuehlke.cloud
-  mastodon: tzuehlke@mstdn.social
-  twitter_username: thomzuehlke
+  name: 'JUNYAN BAI'
+  email: jbai0759@uni.sydney.edu.au
+  # mastodon: tzuehlke@mstdn.social
+  # twitter_username: thomzuehlke
 #  facebook_username: joshgerdes
-  github_username:  tzuehlke
-  linkedin_username:  thomas-zühlke-889182165
-  meetup_name: Azure-Meetup-Rostock-MV
+  github_username:  Wellshh
+  # linkedin_username:  thomas-zühlke-889182165
+  # meetup_name: Azure-Meetup-Rostock-MV
 
 # Build settings
 destination: _site
