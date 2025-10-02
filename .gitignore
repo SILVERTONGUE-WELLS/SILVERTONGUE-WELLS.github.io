@@ -3,3 +3,4 @@ _site/
 .htaccess
 _config.yml
 .DS_Store
+pdfs/
